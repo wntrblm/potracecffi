@@ -10,7 +10,7 @@ HERE = pathlib.Path(__file__).parent
 ffibuilder = FFI()
 
 ffibuilder.set_source(
-    "_potracecffi",
+    "potracecffi._potracecffi",
     (HERE / "potracecffi.c").read_text(),
     libraries=["potrace"],
     include_dirs=["/opt/homebrew/opt/potrace/include"],

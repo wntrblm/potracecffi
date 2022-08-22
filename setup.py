@@ -1,5 +1,3 @@
-import platform
-import sys
 from setuptools import setup, find_packages
 from setuptools.command.build_ext import build_ext
 from codecs import open
@@ -13,7 +11,7 @@ with open(path.join(here, 'README'), encoding='utf-8') as f:
 
 setup(
     name='potracecffi',
-    version='2022.8.22',
+    version='2022.8.22.post1',
     description="Minimal bindings to potracelib using cffi",
     long_description=long_description,
     url='https://github.com/wntrblm/potracecffi',
